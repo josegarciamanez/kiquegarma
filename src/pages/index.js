@@ -41,12 +41,5 @@ export default () => (
         KIQUE GARMA<sub>Photo</sub>
       </h1>
     </div>
-    <div id="content" className="content">
-      <div
-        id="slider"
-        data-images='["./images/img61.jpg","./images/img62.jpg","./images/img63.jpg","./images/img64.jpg"]'
-        data-disp="./images/disp1.jpg"
-      ></div>
-    </div>
   </Layout>
 )
