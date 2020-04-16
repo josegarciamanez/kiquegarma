@@ -1,12 +1,6 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react"
 import PropTypes from "prop-types"
+import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
@@ -25,6 +19,13 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <Helmet>
+        <script src="src/js/three.js" type="text/jsx"></script>
+        <script src="src/js/dat-gui.js" type="text/jsx"></script>
+        <script src="src/js/gsap.js" type="text/jsx"></script>
+        <script src="src/js/sketch.js" type="text/jsx"></script>
+        <script src="src/js/demo.js" type="text/jsx"></script>
+      </Helmet>
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
@@ -34,12 +35,10 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
       </div>
+      <footer style={{ padding: `10px 0` }}>
+        KIQUEGARMA © {new Date().getFullYear()}
+      </footer>
     </>
   )
 }
