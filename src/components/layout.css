@@ -79,7 +79,7 @@ img {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0;
 }
 h1 {
   margin-left: 0;
@@ -186,7 +186,7 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 0;
 }
 
 p *:last-child {
@@ -194,7 +194,7 @@ p *:last-child {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   text-align: center;
@@ -322,7 +322,7 @@ a:focus {
 }
 
 .frame__demos a:not(:last-child) {
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 
 .frame__demos {
@@ -331,8 +331,8 @@ a:focus {
 
 .frame__demo {
   white-space: nowrap;
-  margin: 0 1rem;
-  font-size: 2rem;
+  margin: 0;
+  font-size: 1.4rem;
 }
 .frame__info {
   color: black;
@@ -454,7 +454,7 @@ a.frame__demo {
   color: #0a0a0a;
   text-decoration: none;
   padding: 15px;
-  border-radius: 20px;
+  border-radius: 10px;
   background: #f5f5f5;
   box-shadow: 5px 5px 11px #e4e4e4, -5px -5px 11px #ffffff;
 }
@@ -479,4 +479,19 @@ a.frame__demo:focus {
 .links-header a:hover {
   color: #b4b4b4;
   box-shadow: inset 5px 5px 11px #e4e4e4, inset -5px -5px 11px #ffffff;
+}
+
+.my-masonry-grid {
+  display: flex;
+  margin-left: -10px;
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 10px;
+  background-clip: padding-box;
+}
+
+/* Style your items */
+.my-masonry-grid_column > div {
+  margin-bottom: 10px;
 }

@@ -2,8 +2,16 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Masonry from "react-masonry-css"
+import ModalImage from "react-modal-image"
 
 export default ({ data }) => {
+  const breakpointColumn = {
+    default: 3,
+    1100: 3,
+    700: 2,
+    500: 1,
+  }
   const images = data.allWordpressPost.edges.map(
     edge => edge.node.jetpack_featured_media_url
   )
@@ -11,9 +19,15 @@ export default ({ data }) => {
     <Layout>
       <SEO title="social" />
       <h3>Social Photos</h3>
-      {images.map((img, i) => (
-        <img src={img} key={i} alt={img} style={{ maxWidth: `200px` }} />
-      ))}
+      <Masonry
+        breakpointCols={breakpointColumn}
+        className="my-masonry-grid"
+        columnClassName="my-masonry-grid_column"
+      >
+        {images.map((img, i) => (
+          <ModalImage key={i} small={img} large={img} hideDownload="true" />
+        ))}
+      </Masonry>
     </Layout>
   )
 }
