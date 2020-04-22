@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
@@ -27,7 +27,9 @@ const Layout = ({ children }) => {
         }}
       >
         <div className="frame caption">
-          <div className="frame__info">Bio</div>
+          <div className="frame__info">
+            <Link to="/bio">bio</Link>
+          </div>
           <div className="frame__demos">
             <a
               href="https://facebook.com"

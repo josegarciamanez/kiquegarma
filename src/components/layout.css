@@ -339,7 +339,7 @@ a:focus {
   font-size: 2rem;
 }
 
-.frame__info::after {
+.frame__info::before {
   content: "\2937";
 }
 
@@ -474,6 +474,18 @@ a.frame__demo:focus {
   border-radius: 12px;
   background: #f5f5f5;
   box-shadow: 5px 5px 11px #e4e4e4, -5px -5px 11px #ffffff;
+}
+
+.frame__info a {
+  text-decoration: none;
+  font-weight: 200;
+  color: #0a0a0a;
+  letter-spacing: 15px;
+  transform: rotateZ(90deg);
+}
+
+.frame__info a:hover {
+  color: #b4b4b4;
 }
 
 .links-header a:hover {

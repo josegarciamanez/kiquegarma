@@ -30,7 +30,7 @@ module.exports = {
     {
       resolve: `gatsby-source-wordpress`,
       options: {
-        baseUrl: `josegarciamanez.wordpress.com`,
+        baseUrl: `kiquegarma391567719.wordpress.com`,
         protocol: `https`,
         hostingWPCOM: true,
         useACF: false,
