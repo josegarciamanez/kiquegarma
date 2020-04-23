@@ -427,18 +427,15 @@ a.frame__demo:focus {
     margin-right: 0.5rem;
   }
   .frame__demos {
+    position: fixed;
+    bottom: 0;
     width: 100vw;
     margin: 1.1rem 0.5rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
-  .frame {
-    grid-template-areas:
-      "title links links ..."
-      "... ... ... ..."
-      "demos demos demos demos";
-  }
+
   .container {
     display: flex;
     justify-content: space-between;
@@ -449,5 +446,8 @@ a.frame__demo:focus {
   h1 {
     margin-left: 10px;
     font-size: 1.8rem !important;
+  }
+  .frame {
+    display: block;
   }
 }
