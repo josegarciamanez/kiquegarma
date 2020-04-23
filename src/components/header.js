@@ -36,7 +36,7 @@ const Header = ({ siteTitle }) => (
         <Link to="/landscape">Landscape</Link>
         <Link to="/social">Social</Link>
         <Link to="/still-life">Still Life</Link>
-        <Link to="/contact">Contacto</Link>
+        <Link to="/contact">Contact</Link>
       </div>
     </div>
   </header>
