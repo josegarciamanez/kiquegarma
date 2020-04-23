@@ -17,7 +17,6 @@ const Header = ({ siteTitle }) => (
         justifyContent: `space-between`,
         margin: `0 auto`,
         maxWidth: 960,
-        padding: `0.5rem 0.5rem`,
       }}
     >
       <Link

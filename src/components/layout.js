@@ -23,20 +23,20 @@ const Layout = ({ children }) => {
         <div className="frame caption">
           <div className="frame__demos">
             <a
-              href="https://facebook.com"
+              href="https://linkendin.com"
               target="_blank"
               rel="noopener noreferrer"
               className="frame__demo"
             >
-              Fb
+              Ld
             </a>
             <a
-              href="https://twitter.com"
+              href="https://instagram.com"
               target="_blank"
               rel="noopener noreferrer"
               className="frame__demo"
             >
-              Tw
+              In
             </a>
             <a
               href="https://behance.com"
