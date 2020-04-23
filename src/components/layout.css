@@ -219,7 +219,6 @@ footer {
   );
   background-clip: text;
   color: transparent;
-  letter-spacing: 5px;
   background-size: 80% 100%;
   background-repeat: no-repeat;
   animation: shine 9s linear infinite;
