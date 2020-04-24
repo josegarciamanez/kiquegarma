@@ -455,4 +455,7 @@ a.frame__demo:focus {
   .frame {
     display: block;
   }
+  .frame__info {
+    position: relative;
+  }
 }
