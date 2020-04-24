@@ -22,7 +22,7 @@ const Header = ({ siteTitle }) => (
       <Link
         to="/"
         style={{
-          margin: 0,
+          paddingTop: `5px`,
           color: `black`,
           textDecoration: `none`,
         }}

@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
               rel="noopener noreferrer"
               className="frame__demo"
             >
-              In
+              Ins
             </a>
             <a
               href="https://behance.com"

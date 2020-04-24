@@ -203,7 +203,7 @@ footer {
   background-image: url("../images/lines.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: 84%;
 }
 
 .container h1 {
