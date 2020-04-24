@@ -343,7 +343,8 @@ a.frame__demo:focus {
   box-shadow: inset 5px 5px 11px #e4e4e4, inset -5px -5px 11px #ffffff;
 }
 
-.links-header a {
+.links-header a,
+.menu__mobile a {
   margin-right: 20px;
   text-decoration: none;
   font-weight: 200;
@@ -366,7 +367,8 @@ a.frame__demo:focus {
   color: #b4b4b4;
 }
 
-.links-header a:hover {
+.links-header a:hover,
+.menu__mobile a:hover {
   color: #b4b4b4;
   box-shadow: inset 5px 5px 11px #e4e4e4, inset -5px -5px 11px #ffffff;
 }
@@ -397,6 +399,10 @@ a.frame__demo:focus {
   padding: 0 1.0875rem 1.45rem;
 }
 
+.menu__mobile {
+  display: none;
+}
+
 @media (max-width: 767px) {
   header {
     display: flex;
@@ -405,6 +411,9 @@ a.frame__demo:focus {
     margin-bottom: 0 !important;
   }
   .links-header {
+    display: none;
+  }
+  .menu__mobile {
     display: none;
   }
   .container_frame {
@@ -456,6 +465,7 @@ a.frame__demo:focus {
     display: block;
   }
   .frame__info {
-    position: relative;
+    position: absolute;
+    right: 0;
   }
 }

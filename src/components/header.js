@@ -37,6 +37,13 @@ const Header = ({ siteTitle }) => (
         <Link to="/still-life">Still Life</Link>
         <Link to="/contact">Contact</Link>
       </div>
+      <div className="menu__mobile">
+        <Link to="/fashion">Fashion</Link>
+        <Link to="/landscape">Landscape</Link>
+        <Link to="/social">Social</Link>
+        <Link to="/still-life">Still Life</Link>
+        <Link to="/contact">Contact</Link>
+      </div>
     </div>
   </header>
 )
