@@ -410,7 +410,7 @@ a.frame__demo:focus {
   .container-header {
     display: flex;
     align-items: baseline;
-    margin: 15px auto 0 auto;
+    margin: 20px auto 0 auto;
   }
   .links-header {
     position: fixed;
