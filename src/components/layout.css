@@ -446,7 +446,7 @@ a.frame__demo:focus {
 
   .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     min-height: 50vh;
     background-image: url("../images/lines.svg");
@@ -455,5 +455,8 @@ a.frame__demo:focus {
   h1 {
     margin-left: 10px;
     font-size: 1.5rem !important;
+  }
+  .container .frame__info {
+    position: relative;
   }
 }
