@@ -76,19 +76,10 @@ img {
   margin-bottom: 0;
 }
 h1 {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
-  color: inherit;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 200;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  font-size: 5rem !important;
   line-height: 1.1;
 }
 h2 {
@@ -447,9 +438,9 @@ a.frame__demo:focus {
     position: fixed;
     bottom: 0;
     width: 100vw;
-    margin: 1.1rem 0.5rem;
+    margin-bottom: 8px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
   }
 
@@ -460,11 +451,9 @@ a.frame__demo:focus {
     min-height: 50vh;
     background-image: url("../images/lines.svg");
     background-size: 90%;
-    overflow-x: hidden;
   }
   h1 {
     margin-left: 10px;
-    font-size: 1.8rem !important;
-    max-width: 70%;
+    font-size: 1.5rem !important;
   }
 }
