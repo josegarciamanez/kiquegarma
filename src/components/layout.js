@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
               Ins
             </a>
             <a
-              href="https://behance.com"
+              href="https://behance.net/kiquegarcia"
               target="_blank"
               rel="noopener noreferrer"
               className="frame__demo"
