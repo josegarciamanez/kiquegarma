@@ -79,7 +79,7 @@ h1 {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 200;
   text-rendering: optimizeLegibility;
-  font-size: 5rem !important;
+  font-size: 7rem !important;
   line-height: 1.1;
 }
 h2 {
@@ -476,7 +476,7 @@ a.frame__demo:focus {
   }
   h1 {
     padding-left: 10px;
-    font-size: 1.5rem !important;
+    font-size: 2.5rem !important;
   }
   .container .frame__info {
     position: absolute;

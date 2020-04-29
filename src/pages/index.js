@@ -8,7 +8,7 @@ export default () => (
     <SEO title="Home" />
 
     <div className="container">
-      <h1>MY LITTLE PORTFOLIO</h1>
+      <h1>PORTFOLIO</h1>
 
       <div className="frame__info">
         <Link to="/bio">bio &#10505;</Link>
