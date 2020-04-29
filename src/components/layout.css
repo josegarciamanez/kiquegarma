@@ -457,6 +457,6 @@ a.frame__demo:focus {
     font-size: 1.5rem !important;
   }
   .container .frame__info {
-    justify-content: right;
+    position: relative;
   }
 }
