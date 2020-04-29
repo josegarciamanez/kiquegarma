@@ -406,11 +406,11 @@ a.frame__demo:focus {
   .container-header {
     display: flex;
     align-items: baseline;
-    margin: 0 auto;
+    margin: 15px auto 0 auto;
   }
   .links-header {
     position: fixed;
-    bottom: 80px;
+    top: 0px;
   }
 
   .links-header a {
@@ -426,6 +426,7 @@ a.frame__demo:focus {
   }
   .links-header a:hover {
     color: #b4b4b4;
+    box-shadow: none;
   }
 
   .container_frame {
@@ -476,5 +477,12 @@ a.frame__demo:focus {
   .container .frame__info {
     position: absolute;
     left: 0;
+  }
+  .portfolio__title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .my-masonry-grid_column div:last-child {
+    margin-bottom: 100px;
   }
 }
