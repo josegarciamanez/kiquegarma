@@ -453,10 +453,11 @@ a.frame__demo:focus {
     background-size: 90%;
   }
   h1 {
-    padding-left: 20px;
+    padding-left: 10px;
     font-size: 1.5rem !important;
   }
   .container .frame__info {
-    position: relative;
+    position: absolute;
+    right: 0;
   }
 }
