@@ -186,6 +186,12 @@ footer {
   margin: 0;
 }
 
+#tsparticles {
+  position: absolute;
+  max-width: 960px;
+  height: 70vh;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
