@@ -459,7 +459,7 @@ a.frame__demo:focus {
     align-items: center;
     min-height: 50vh;
     background-image: url("../images/lines.svg");
-    background-size: 100%;
+    background-size: 90%;
     overflow-x: hidden;
   }
   h1 {
