@@ -10,15 +10,7 @@ const Header = ({ siteTitle }) => (
       marginBottom: `1rem`,
     }}
   >
-    <div
-      style={{
-        display: `flex`,
-        alignItems: `center`,
-        justifyContent: `space-between`,
-        margin: `0 auto`,
-        maxWidth: 960,
-      }}
-    >
+    <div className="container-header">
       <Link
         to="/"
         style={{
@@ -31,13 +23,6 @@ const Header = ({ siteTitle }) => (
       </Link>
 
       <div className="links-header">
-        <Link to="/fashion">Fashion</Link>
-        <Link to="/landscape">Landscape</Link>
-        <Link to="/social">Social</Link>
-        <Link to="/still-life">Still Life</Link>
-        <Link to="/contact">Contact</Link>
-      </div>
-      <div className="menu__mobile">
         <Link to="/fashion">Fashion</Link>
         <Link to="/landscape">Landscape</Link>
         <Link to="/social">Social</Link>
