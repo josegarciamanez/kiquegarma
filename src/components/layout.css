@@ -309,7 +309,11 @@ footer {
 .frame a {
   pointer-events: auto;
 }
-
+.container_frame {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0 1.0875rem 1.45rem;
+}
 #slider {
   position: fixed;
   top: 0;
@@ -393,7 +397,7 @@ a.frame__demo:focus {
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-  max-width: 960;
+  max-width: 960px;
 }
 
 @media (max-width: 767px) {
