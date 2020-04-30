@@ -11,14 +11,33 @@ export default () => (
     <div className="container">
       <Particles
         params={{
+          fps_limit: 28,
           particles: {
             number: {
-              value: 80,
+              value: 60,
             },
             line_linked: {
-              color: "#000",
-              opacity: 0.1,
+              enable: true,
+              color: "#fff",
+              opacity: 0.7,
               zIndex: -1000,
+            },
+            move: {
+              speed: 2,
+            },
+            interactivity: {
+              events: {
+                onhover: {
+                  enable: true,
+                  mode: "bubble",
+                },
+              },
+              modes: {
+                bubble: {
+                  size: 6,
+                  distance: 40,
+                },
+              },
             },
           },
         }}
