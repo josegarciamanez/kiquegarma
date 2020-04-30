@@ -19,7 +19,7 @@ export default () => (
             line_linked: {
               enable: true,
               color: "#000",
-              opacity: 0.7,
+              opacity: 0.3,
               zIndex: -1000,
             },
             move: {
