@@ -18,7 +18,7 @@ export default () => (
             },
             line_linked: {
               enable: true,
-              color: "#fff",
+              color: "#000",
               opacity: 0.7,
               zIndex: -1000,
             },
