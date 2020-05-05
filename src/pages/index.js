@@ -14,12 +14,12 @@ export default () => (
           fps_limit: 28,
           particles: {
             number: {
-              value: 60,
+              value: 25,
             },
             line_linked: {
               enable: true,
               color: "#000",
-              opacity: 0.3,
+              opacity: 0.1,
               zIndex: -1000,
             },
             move: {
