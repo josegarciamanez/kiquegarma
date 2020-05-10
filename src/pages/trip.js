@@ -17,8 +17,8 @@ export default ({ data }) => {
   )
   return (
     <Layout>
-      <SEO title="social" />
-      <h3 class="portfolio__title">Social Photos</h3>
+      <SEO title="trip" />
+      <h3 class="portfolio__title">Trip Photos</h3>
       <Masonry
         breakpointCols={breakpointColumn}
         className="my-masonry-grid"
@@ -35,7 +35,7 @@ export default ({ data }) => {
 export const query = graphql`
   query {
     allWordpressPost(
-      filter: { categories: { elemMatch: { name: { eq: "social" } } } }
+      filter: { categories: { elemMatch: { name: { eq: "trip" } } } }
     ) {
       edges {
         node {

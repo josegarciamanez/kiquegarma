@@ -15,11 +15,10 @@ export default ({ data }) => {
   const images = data.allWordpressPost.edges.map(
     edge => edge.node.jetpack_featured_media_url
   )
-
   return (
     <Layout>
-      <SEO title="fashion" />
-      <h3 class="portfolio__title">Fashion Photos</h3>
+      <SEO title="advert" />
+      <h3 class="portfolio__title">Advert Photos</h3>
       <Masonry
         breakpointCols={breakpointColumn}
         className="my-masonry-grid"
@@ -36,7 +35,7 @@ export default ({ data }) => {
 export const query = graphql`
   query {
     allWordpressPost(
-      filter: { categories: { elemMatch: { name: { eq: "fashion" } } } }
+      filter: { categories: { elemMatch: { name: { eq: "advert" } } } }
     ) {
       edges {
         node {

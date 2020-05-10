@@ -25,8 +25,9 @@ const Header = ({ siteTitle }) => (
       <div className="links-header">
         <Link to="/fashion">Fashion</Link>
         <Link to="/landscape">Landscape</Link>
-        <Link to="/social">Social</Link>
+        <Link to="/advert">Advert</Link>
         <Link to="/still-life">Still Life</Link>
+        <Link to="/trip">Trip</Link>
         <Link to="/contact">Contact</Link>
       </div>
     </div>
