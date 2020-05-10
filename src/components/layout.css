@@ -416,7 +416,7 @@ a.frame__demo:focus {
   .container-header {
     display: flex;
     align-items: baseline;
-    margin: 20px auto 0 auto;
+    margin: 25px auto 0 auto;
   }
   .links-header {
     position: fixed;
@@ -480,7 +480,7 @@ a.frame__demo:focus {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 50vh;
+    min-height: 45vh;
     background-image: url("../images/lines.svg");
     background-size: 90%;
   }
