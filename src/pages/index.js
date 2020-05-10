@@ -26,20 +26,6 @@ export default () => (
             move: {
               speed: 2,
             },
-            interactivity: {
-              events: {
-                onhover: {
-                  enable: true,
-                  mode: "bubble",
-                },
-              },
-              modes: {
-                bubble: {
-                  size: 6,
-                  distance: 40,
-                },
-              },
-            },
           },
         }}
       />
