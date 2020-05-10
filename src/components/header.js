@@ -1,4 +1,5 @@
 import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 import PropTypes from "prop-types"
 import React from "react"
 import logo from "../images/logo.svg"
@@ -23,12 +24,24 @@ const Header = ({ siteTitle }) => (
       </Link>
 
       <div className="links-header">
-        <Link to="/fashion">Fashion</Link>
-        <Link to="/landscape">Landscape</Link>
-        <Link to="/advert">Advert</Link>
-        <Link to="/still-life">Still Life</Link>
-        <Link to="/trip">Trip</Link>
-        <Link to="/contact">Contact</Link>
+        <AniLink cover direction="right" bg="whitesmoke" to="/fashion">
+          Fashion
+        </AniLink>
+        <AniLink cover direction="right" bg="whitesmoke" to="/landscape">
+          Landscape
+        </AniLink>
+        <AniLink cover direction="right" bg="whitesmoke" to="/advert">
+          Advert
+        </AniLink>
+        <AniLink cover direction="right" bg="whitesmoke" to="/still-life">
+          Still Life
+        </AniLink>
+        <AniLink cover direction="right" bg="whitesmoke" to="/trip">
+          Trip
+        </AniLink>
+        <AniLink cover direction="right" bg="whitesmoke" to="/contact">
+          Contact
+        </AniLink>
       </div>
     </div>
   </header>
