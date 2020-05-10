@@ -5,6 +5,6 @@ import SEO from "../components/seo"
 export default () => (
   <Layout>
     <SEO title="contact" />
-    <h3 class="portfolio__title">Contact</h3>
+    <h3 className="portfolio__title">Contact</h3>
   </Layout>
 )

@@ -18,7 +18,7 @@ export default ({ data }) => {
   return (
     <Layout>
       <SEO title="still-life" />
-      <h3 class="portfolio__title">Still Life Photos</h3>
+      <h3 className="portfolio__title">Still Life Photos</h3>
       <Masonry
         breakpointCols={breakpointColumn}
         className="my-masonry-grid"
