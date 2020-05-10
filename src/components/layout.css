@@ -378,12 +378,12 @@ a.frame__demo:focus {
   width: auto;
 }
 .my-masonry-grid_column {
-  padding-left: 10px;
+  padding-left: 3px;
   background-clip: padding-box;
 }
 
 .my-masonry-grid_column > div {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .portfolio__title {
