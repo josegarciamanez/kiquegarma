@@ -12,7 +12,10 @@ const Header = ({ siteTitle }) => (
     }}
   >
     <div className="container-header">
-      <Link
+      <AniLink
+        cover
+        direction="right"
+        bg="whitesmoke"
         to="/"
         style={{
           paddingTop: `5px`,
@@ -21,7 +24,7 @@ const Header = ({ siteTitle }) => (
         }}
       >
         <img style={{ width: `250px` }} src={logo} alt="logo" />
-      </Link>
+      </AniLink>
 
       <div className="links-header">
         <AniLink cover direction="right" bg="whitesmoke" to="/fashion">

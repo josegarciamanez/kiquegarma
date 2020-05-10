@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 import Particles from "react-particles-js"
 
 export default () => (
@@ -45,7 +46,9 @@ export default () => (
       <h1>PORTFOLIO</h1>
 
       <div className="frame__info">
-        <Link to="/bio">bio &#10505;</Link>
+        <AniLink fade to="/bio">
+          bio &#10505;
+        </AniLink>
       </div>
     </div>
   </Layout>

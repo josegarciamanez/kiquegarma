@@ -499,4 +499,7 @@ a.frame__demo:focus {
   .my-masonry-grid_column div:last-child {
     margin-bottom: 100px;
   }
+  #tsparticles {
+    height: 55vh;
+  }
 }
