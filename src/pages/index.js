@@ -15,7 +15,7 @@ export default () => (
           fps_limit: 28,
           particles: {
             number: {
-              value: 25,
+              value: 24,
             },
             line_linked: {
               enable: true,
