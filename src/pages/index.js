@@ -1,9 +1,9 @@
-import React from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { Link } from "gatsby"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
-import Particles from "react-particles-js"
+import React from "react";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import { Link } from "gatsby";
+import AniLink from "gatsby-plugin-transition-link/AniLink";
+import Particles from "react-particles-js";
 
 export default () => (
   <Layout>
@@ -15,7 +15,7 @@ export default () => (
           fps_limit: 28,
           particles: {
             number: {
-              value: 24,
+              value: 25,
             },
             line_linked: {
               enable: true,
@@ -38,4 +38,4 @@ export default () => (
       </div>
     </div>
   </Layout>
-)
+);

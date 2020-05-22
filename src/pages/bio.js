@@ -1,7 +1,7 @@
-import React from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import bio from "../images/bio.jpg"
+import React from "react";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import bio from "../images/bio.jpg";
 
 export default () => (
   <Layout>
@@ -11,4 +11,4 @@ export default () => (
       <img style={{ width: `95vw` }} src={bio} alt="bio" />
     </div>
   </Layout>
-)
+);
