@@ -392,11 +392,11 @@ a.frame__demo:focus {
   -webkit-text-stroke: 1px black;
 }
 
-.container_frame {
+/* .container_frame {
   margin: 0 auto;
   max-width: 960px;
   padding: 0 1.0875rem 1.45rem;
-}
+} */
 
 .container-header {
   display: flex;
